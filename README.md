@@ -70,3 +70,67 @@ batch size=16, num iterations=100
   Median text batches/second: 478.8, mean: 478.0
   Median latency: 0.033417, mean: 0.033482, 99th_p: 0.036420, std_dev: 0.000470
 ```
+
+## ViT result
+```
+Normal ViT =================================
+batch size=64, num iterations=100
+  Median text batches/second: 637.9, mean: 637.6
+  Median latency: 0.100335, mean: 0.100373, 99th_p: 0.100814, std_dev: 0.000191
+
+Warm up ...
+Start timing ...
+
+Half Normal ViT =================================
+batch size=64, num iterations=100
+  Median text batches/second: 1196.7, mean: 1194.7
+  Median latency: 0.053479, mean: 0.053570, 99th_p: 0.053961, std_dev: 0.000173
+
+Warm up ...
+Start timing ...
+
+Script ViT =================================
+batch size=64, num iterations=100
+  Median text batches/second: 635.3, mean: 635.4
+  Median latency: 0.100735, mean: 0.100721, 99th_p: 0.101074, std_dev: 0.000133
+
+Warm up ...
+Start timing ...
+
+Half Script ViT =================================
+batch size=64, num iterations=100
+  Median text batches/second: 1191.0, mean: 1192.0
+  Median latency: 0.053735, mean: 0.053690, 99th_p: 0.053962, std_dev: 0.000180
+
+Warm up ...
+Start timing ...
+
+Traced ViT =================================
+batch size=64, num iterations=100
+  Median text batches/second: 634.2, mean: 634.3
+  Median latency: 0.100921, mean: 0.100897, 99th_p: 0.101372, std_dev: 0.000219
+
+Warm up ...
+Start timing ...
+
+Half Traced ViT =================================
+batch size=64, num iterations=100
+  Median text batches/second: 1114.4, mean: 1115.9
+  Median latency: 0.057428, mean: 0.057353, 99th_p: 0.057843, std_dev: 0.000226
+
+Warm up ...
+Start timing ...
+
+trt ViT =================================
+batch size=64, num iterations=100
+  Median text batches/second: 673.6, mean: 673.4
+  Median latency: 0.095010, mean: 0.095037, 99th_p: 0.096635, std_dev: 0.000479
+
+Warm up ...
+Start timing ...
+
+Half trt ViT =================================
+batch size=64, num iterations=100
+  Median text batches/second: 1382.6, mean: 1382.6
+  Median latency: 0.046289, mean: 0.046290, 99th_p: 0.046431, std_dev: 0.000084
+```
