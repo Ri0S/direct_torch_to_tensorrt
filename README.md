@@ -7,7 +7,7 @@ torch==1.13.0a0_340c412
 torch_tensorrt==1.1.0a0  
 tensorrt==8.2.5.1  
 
-## Bert result
+## bert_test.py result
 ```
 Normal Bert =================================
 batch size=16, num iterations=100
@@ -71,7 +71,7 @@ batch size=16, num iterations=100
   Median latency: 0.033417, mean: 0.033482, 99th_p: 0.036420, std_dev: 0.000470
 ```
 
-## ViT result
+## vit_test.py result
 ```
 Normal ViT =================================
 batch size=64, num iterations=100
