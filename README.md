@@ -8,7 +8,7 @@ tensorrt==8.4.1.5
 
 ## onnx_tensorrt_bert_test.py result  
 ```
-onnx to tensorrt bert(fp32) =================================
+onnx to tensorrt bert(fp16) =================================
 batch size=16, num iterations=100
   Median text batches/second: 254.9, mean: 254.8
   Median latency: 0.062781, mean: 0.062785, 99th_p: 0.063209, std_dev: 0.000249
