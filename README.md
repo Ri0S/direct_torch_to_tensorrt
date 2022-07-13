@@ -1,14 +1,14 @@
 # direct_torch_to_tensorrt
 
 ## environment
-RTX3090
-Ubuntu 20.04.4
-torch==1.13.0a0_340c412
-torch_tensorrt==1.1.0a0
-tensorrt==8.2.5.1
+RTX3090  
+Ubuntu 20.04.4  
+torch==1.13.0a0_340c412  
+torch_tensorrt==1.1.0a0  
+tensorrt==8.2.5.1  
 
 ## Bert result
-
+'''
 Normal Bert =================================
 batch size=16, num iterations=100
   Median text batches/second: 202.1, mean: 201.9
@@ -69,3 +69,4 @@ Half trt Bert =================================
 batch size=16, num iterations=100
   Median text batches/second: 478.8, mean: 478.0
   Median latency: 0.033417, mean: 0.033482, 99th_p: 0.036420, std_dev: 0.000470
+'''
