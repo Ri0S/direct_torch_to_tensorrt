@@ -14,6 +14,14 @@ batch size=16, num iterations=100
   Median latency: 0.062781, mean: 0.062785, 99th_p: 0.063209, std_dev: 0.000249
 ```
 
+## onnx_tensorrt_bert_fp16_test.py result
+```
+onnx to tensorrt bert =================================
+batch size=16, num iterations=100
+  Median text batches/second: 693.9, mean: 691.4
+  Median latency: 0.023057, mean: 0.023145, 99th_p: 0.024300, std_dev: 0.000263
+```
+
 # direct_torch_to_tensorrt
 
 ## environment
